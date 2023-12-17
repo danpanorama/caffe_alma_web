@@ -4,6 +4,7 @@ import '../../css/nav.css';
 import {AnimatePresence} from 'framer-motion';
 import HomeScreen from "../../pages/HomeScreen";
 import AboutScreen from "../../pages/AboutScreen";
+import ContactScreen from "../../pages/ContactScreen";
 
 function NavRoute() {
   const location =useLocation()
@@ -19,6 +20,8 @@ function NavRoute() {
         <Route path="/" element={<HomeScreen />} exact />
         <Route path="/*" element={<HomeScreen />} exact />
         <Route path="/about" element={<AboutScreen />} exact />
+        <Route path="/contact" element={<ContactScreen />} exact />
+
         {/* <Routes path="/404" element={<Nofuondpage/>} exact/> */}
       </Routes>  
       </AnimatePresence>

@@ -1,0 +1,38 @@
+.sideA{
+    height: 100vh;
+    width: 40%;
+    background-image: url('../images/new/out2.jpg');
+    object-fit: cover;
+    background-size: cover;
+    
+}
+.sideB{
+    width: 60%;
+}
+.iframeMap{
+    border: none;
+    width: 600px;
+    height: 200px;
+    margin-top: 50px;
+}
+.imageDiv{
+    width: 600px;
+    height: 200px;
+    margin-top: 50px;
+}
+img{
+    object-fit: cover ;
+background-size: cover;
+}
+.pre{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-top: 50px;
+}
+.time{
+    font-size: 1.6rem;
+}
+.headerContact{
+    font-size: 4rem;
+    font-weight: 100;
+}

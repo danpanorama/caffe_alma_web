@@ -16,7 +16,7 @@
     margin-top: 50px;
     position: relative;
     animation: imageanimation 20s infinite linear;
-    box-shadow: 0 3px 20px  black;
+    /* box-shadow: 0 3px 20px  black; */
 /* border-radius: 19% 81% 6% 94% / 82% 8% 92% 18% ; */
 }
 @keyframes imageanimation {
@@ -67,12 +67,12 @@
 .square_01{
     height: 200px ;
     width: 200px;
-    background-color: #db9871;
+    background-color: #D3525F;
     position: absolute;
     top: 11%;
     right: 1%;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
-    box-shadow: 0 3px 10px  black;
+    /* box-shadow: 0 3px 10px  black; */
     
 }
 .inside_circle_01{
@@ -99,11 +99,11 @@
   border-radius:  50% ;
 }
 .square_03{
-    box-shadow: 0 3px 10px  black;
+    /* box-shadow: 0 3px 10px  black; */
 
     height: 400px ;
     width: 400px;
-    background-color: #f4c77a;
+    background-color: #FBB040;
     position: absolute;
     bottom:  1%;
     right:  -5%;
@@ -112,11 +112,11 @@
 .square_02{
     height: 600px ;
     width: 300px;
-    background-color: #cdc69d;
+    background-color: #359272;
     position: absolute;
     top: 11%;
     left: -9%;
-    box-shadow: 0 3px 10px  black;
+    /* box-shadow: 0 3px 10px  black; */
 
     border-radius: 69% 31% 31% 69% / 30% 93% 7% 70% ;
 }

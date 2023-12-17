@@ -7,7 +7,8 @@ import SocialCercle from "../buttons/SocialCercle";
 function Nav() {
   return (
     <div className="nav_bar">
-      <div className="container h100 flexRow bet acenter">
+      <div className="container h100 marginAuto ">
+        <div className="flexRow bet acenter">
         <div className="logo flexRow">
           
           <motion.img
@@ -25,11 +26,13 @@ function Nav() {
           <NavLink to="/" className={'links'}>דף הבית</NavLink>
           <NavLink to="/about" className={'links'}>תפריט</NavLink>
           <NavLink to="/about" className={'links'}>אודות</NavLink>
-          <NavLink to="/about" className={'links'}>צור קשר</NavLink>
+          <NavLink to="/contact" className={'links'}>צור קשר</NavLink>
         </div>
         <div className="social">
           <SocialCercle/>
         </div>
+          
+          </div>  
       </div>
     </div>
   );

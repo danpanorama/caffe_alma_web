@@ -22,7 +22,7 @@ function Opening() {
             
             </div>
         <div className="bgImage">
-            <h1 className="header">קפה עלמה</h1>
+            {/* <h1 className="header">קפה עלמה</h1> */}
         </div>
       </div>
     </motion.div>
