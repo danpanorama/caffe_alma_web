@@ -7,7 +7,7 @@ import SocialCercle from "../buttons/SocialCercle";
 function Nav() {
   return (
     <div className="nav_bar">
-      <div className="container h100 marginAuto ">
+      <div className="container h100 marginAuto centeratphone">
         <div className="flexRow bet acenter">
         <div className="logo flexRow">
           

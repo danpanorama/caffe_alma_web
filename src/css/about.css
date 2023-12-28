@@ -1,3 +1,132 @@
 .aboutsec{
     min-height: 100vh;
+ overflow: hidden;
+}
+.square_about_1{
+    height: 50%;
+    width: 45%;
+    background-color: #d3525f43;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+   border-radius: 4px;
+}
+.wordsSec{
+    align-items: flex-end;
+    
+}
+.wordsText{
+    text-align: right;
+    font-size: 1.8rem;
+    font-weight: 700;
+    direction: rtl;
+    margin-bottom: 10px;
+}
+.textWords{
+    direction: rtl;
+color: rgb(58, 58, 58);
+    text-align: right;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.imageDivAbout{
+    height: 50%;
+ margin-left: 40px;
+    width: 40%;
+    margin-top: 50px;
+}
+.min_height{
+    /* padding-bottom: 100%; */
+    /* min-height: 500px; */
+    object-fit: cover;
+    background-size: cover;
+}
+.img{
+    height: 100%;
+    width: 100%;
+}
+.about_header{
+    font-weight: 100;
+    font-size: 3rem;
+}
+.square_about_2{
+    height: 50%;
+    width: 30%;
+    background-color: #fbb04055;
+    position: absolute;
+    top: 40%;
+    left: 0%;
+   border-radius: 4px;
+}
+.square_about_3{
+    height: 25%;
+    width: 40%;
+    background-color: #35927247;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+   border-radius: 4px;
+}
+
+/* new page about 
+ */
+.bw{
+    background-color: rgb(255, 255, 255);
+}
+
+ .aboutNew{
+    /* height: 100vh; */
+    width: 100%;
+margin-bottom: 200px;
+
+ }
+
+ .imageSideAbout{
+    max-height: 400px;
+ }
+ .wordsSectionAbout{
+    margin-left: 50px;
+
+ }
+ .padd{
+    padding-right: 15px;
+ }
+ .aboutNew{
+    margin-top: 100px;
+ }
+ .posrel{
+    position: relative;
+ }
+
+ .square_about_2_new{
+    height: 60%;
+    width: 45%;
+    background-color: #fbb04055;
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+   border-radius: 4px;
+   z-index: -1;
+}
+.square_about_3_new{
+    height: 35%;
+    width: 40%;
+    background-color: #35927247;
+    position: absolute;
+    top: -15%;
+    left: 10%;
+   border-radius: 4px;
+   z-index: -1;
+}
+
+.square_about_1_new{
+    height: 60%;
+    width: 20%;
+    background-color: #d3525f43;
+    position: absolute;
+    bottom: 10%;
+    left: -15%;
+    z-index: -1;
+   border-radius: 4px;
 }

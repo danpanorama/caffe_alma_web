@@ -66,6 +66,7 @@
 }
 .square_01{
     height: 200px ;
+ 
     width: 200px;
     background-color: #D3525F;
     position: absolute;
@@ -73,6 +74,12 @@
     right: 1%;
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70% ;
     /* box-shadow: 0 3px 10px  black; */
+    
+    
+}
+.square_01::after{
+    content: '';
+    padding-bottom: 100%;
     
 }
 .inside_circle_01{
@@ -134,3 +141,75 @@ color: #262626;
 /* a77254 */
 /* #B5866A */
 /* #8F8A6C */
+
+
+/* new opening page 
+ */
+
+ .imageOpenWeb{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/new/out2.jpg);
+    object-fit: cover;
+    background-size: cover;
+    z-index: 99999;
+
+    position: relative;
+    animation: imageanimation 20s infinite linear;
+ }
+
+
+@keyframes imageanimation {
+    0%{
+        background-image: url(../images/new/out2.jpg);
+
+    }
+    19%{
+        background-image: url(../images/new/out2.jpg);
+
+    }
+    20%{
+        background-image: url(../images/new/cup.jpg);
+
+    }
+    39%{
+        background-image: url(../images/new/cup.jpg);
+
+    }
+    40%{
+        background-image: url(../images/new/in2.jpg);
+
+    }
+    59%{
+        background-image: url(../images/new/in2.jpg);
+ 
+    }
+    60%{
+        background-image: url(../images/new/good.jpg);
+
+    }
+    79%{
+        background-image: url(../images/new/good.jpg);
+
+    }
+    80%{
+        background-image: url(../images/new/dog.jpg);
+
+    }
+   
+    100%{
+        background-image: url(../images/new/dog.jpg);
+
+    }
+    
+    
+}
+
+
+.LogoImage{
+    max-height: 100px;
+}
+.logosvg{
+    height: 100px;
+    width: 150px;
+}

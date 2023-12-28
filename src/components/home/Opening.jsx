@@ -11,14 +11,14 @@ function Opening() {
     
     className="openingImage">
       <div className="container h100 flexCol center posrealetive">
-        <div className="square_01">
+        <div className="square_01 displayNone">
             
         </div>
-        <div className="square_02">
+        <div className="square_02 displayNone">
             <div className="inside_circle_01 shape_01"></div>
             <div className="inside_circle_02 shape_02 circle_position_02"></div>
         </div>
-        <div className="square_03">
+        <div className="square_03 displayNone">
             
             </div>
         <div className="bgImage">

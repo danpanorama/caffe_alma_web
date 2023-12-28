@@ -1,6 +1,10 @@
 
+import Gallery from '../components/gallery/Gallery';
 import AboutSec from '../components/home/AboutSec';
+import NewAbout from '../components/home/NewAbout';
+import NewOpening from '../components/home/NewOpening';
 import Opening from '../components/home/Opening';
+import LogoComp from '../components/logo/LogoComp';
 import TransitionPage from '../components/transition/TransitionPage';
 import '../css/home.css';
 import Logo from '../images/CafeAlma_Logo.svg'
@@ -17,10 +21,14 @@ function HomeScreen() {
         exit={{ opacity: 0,display:'none' }}
         transition={{ duration: 1 ,delay: 2}}src={Logo} alt="" />
 
-      
+      <NewOpening/>
+      <NewAbout/>
 
-       <Opening/>
-       <AboutSec/>
+      <LogoComp/>
+      <Gallery/>
+
+       {/* <Opening/>
+       <AboutSec/> */}
       </TransitionPage>
     </div>
   );

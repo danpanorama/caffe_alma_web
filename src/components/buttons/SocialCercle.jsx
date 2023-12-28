@@ -9,7 +9,8 @@ function SocialCercle() {
         <a href="" className="cercleSocial"><li className="fa fa-instagram"></li></a>
         <a href="" className="cercleSocial"><li className="fa fa-twitter"></li></a>
 
-         
+        <a href="" className="cercleSocial"><li className="fa fa-whatsapp"></li></a>
+
     </div>
   );
 }

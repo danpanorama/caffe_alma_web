@@ -57,4 +57,25 @@ right: 0 !important;
     width: 50px !important;
 
 }
+.aboutNew{
+  margin-bottom: 50px !important;
+}
+.imageOpenWeb{
+  height: 60vh !important;
+}
+.centeratphone{
+  
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.flexRowToCol{
+  flex-direction: column !important;
+}
+.w50{
+  width: 100% !important;
+}
+.wordsSectionAbout{
+  margin-left: 0 !important;
+}
 }
