@@ -3,11 +3,23 @@ import "../../css/nav.css";
 import Logo from '../../images/CafeAlma_Logo.svg'
 import { motion } from "framer-motion";
 import SocialCercle from "../buttons/SocialCercle";
+import { useState } from "react";
 
 function Nav() {
+
+  const [activeNavBar,setActiveNav ] = useState(false)
+  const changeBackground = ()=>{
+      if(window.scrollY >= 80){
+        setActiveNav(true)
+      }
+      else{
+        setActiveNav(false)
+      }
+   }
+   window.addEventListener('scroll', changeBackground)
   return (
-    <div className="nav_bar">
-      <div className="container h100 marginAuto centeratphone">
+    <div className={activeNavBar?"nav_bar bw":'nav_bar h20vh '}>
+      <div className={"container h100 marginAuto centeratphone"}>
         <div className="flexRow bet acenter">
         <div className="logo flexRow">
           

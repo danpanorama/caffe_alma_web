@@ -1,6 +1,9 @@
 .galleryComp{
     min-height: 100vh;
     width: 100%;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.984)0% 10%,rgba(255, 255, 255, 0)13% 100%), url('../images/new/pink.jpg');
+    background-size: cover;
+    object-fit: cover;
   
 }
 .galleryOfImage{
