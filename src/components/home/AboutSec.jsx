@@ -25,10 +25,10 @@ function AboutSec() {
 
           </p>
         </div>
-
+ 
         <div className="wordsSec w50 flexCol bet ">
           {/* <h1>קפה עלמה</h1> */}
-          <p className="wordsText">
+          <p className="wordsText ">
           קפה עלמה הוא בית קפה שכונתי, ותיק ופינתי השוכן בלב יפו הקסומה. 
 
           </p>

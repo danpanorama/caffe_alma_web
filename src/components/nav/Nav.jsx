@@ -22,9 +22,11 @@ function Nav() {
         
         </div>
 
-        <div className="links_div displayNone">
+        <div className="links_div displayNone drtl">
           <NavLink to="/" className={'links'}>דף הבית</NavLink>
           <NavLink to="/about" className={'links'}>תפריט</NavLink>
+          <NavLink to="/about" className={'links'}>menu</NavLink>
+
           <NavLink to="/about" className={'links'}>אודות</NavLink>
           <NavLink to="/contact" className={'links'}>צור קשר</NavLink>
         </div>

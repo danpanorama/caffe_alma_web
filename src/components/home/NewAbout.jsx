@@ -7,7 +7,7 @@ import ButtonMenu from "../buttons/ButtonMenu";
 function NewAbout() {
   return (
    <div className="aboutNew flexCol acenter  posrel ">
-        <h1>קצת עלינו</h1>
+        <h1  className="about_header">קצת עלינו</h1>
        <br /><br />
     <div className="container flexRowToCol">
     
