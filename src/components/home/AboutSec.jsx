@@ -46,9 +46,9 @@ function AboutSec() {
         </div>
 
 
-        <div className="square_about_1"></div>
-        <div className="square_about_2"></div>{" "}
-        <div className="square_about_3"></div>
+        <div className="square_about_1 displayNone"></div>
+        <div className="square_about_2 displayNone"></div>{" "}
+        <div className="square_about_3 displayNone"></div>
       </div>
     </div>
   );

@@ -19,6 +19,12 @@ body {
   .Logo{
     height: 60px;
   }
+  .iframeMap{
+width: 100% !important;
+  }
+  .displayOnPhoneDisplay{
+    display: block;
+  }
   .bgImage{
     height: 100% !important;
     width: 100vw !important;

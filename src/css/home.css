@@ -3,6 +3,9 @@
     width: 100%;
     position: relative;
 }
+.w500{
+    width: 50%;
+}
 .posrealetive{
     position: relative;
 }

@@ -3,18 +3,25 @@ import "../css/about.css";
 import Image1 from '../images/home1.jpg'
 import Image2 from '../images/tablealma.jpg'
 import Image3 from '../images/home4.jpg'
+import Image4 from '../images/new/cup2.jpg'
+import ButtonMenu from "../components/buttons/ButtonMenu";
+
 
 function AboutScreen() {
   return (
     <div className="">
       <TransitionPage>
         <div className="aboutScreen">
-          <div className="flexCol container h100 center">
+          <div className="flexRowToCol container h100 bet acenter">
+          <div className="imageSideRow">
+              <img src={Image4} className="imgabout " alt="" />
+            </div>
             <div className="wordsSide drtl">
+              
               <h1 className="aboutHeaderPage">
                 קפה עלמה הוא בית קפה שכונתי, ותיק ופינתי השוכן בלב יפו הקסומה.
               </h1>
-              <p className="textWordsPage">
+              <p className="textWordsPage ">
                 מעל עשור שאנחנו מתמחים בהכנת קפה טרי ומשובח מאוד. לאוהבי המשקאות
                 המיוחדים אנחנו מציעים שייקים ומיצים סחוטים וטבעיים שירעננו אתכם
                 במהלך הקיץ וכן, שלל משקאות בריאות טעימים שינחמו בימי החורף
@@ -25,15 +32,20 @@ function AboutScreen() {
                 להנות מרכישה של שלל מוצרי קפה כמו פולים, קפסולות או טחון למקינטה
                 ביתית וחליטות תה טבעיות.
               </p>
+              <ButtonMenu text="תפריט"/>
             </div>
 
-            <div className="imageSide gridImage flexRow bet w100">
+
+ 
+          </div>
+        <div className="container">
+        <div className="imageSide gridImage  w100">
               <img src={Image1} alt="" className="maximg" />
               <img src={Image2} alt="" className="maximg" />
               <img src={Image3} alt="" className="maximg" />
 
             </div>
-          </div>
+        </div>
         </div>
       </TransitionPage>
     </div>

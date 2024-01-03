@@ -4,6 +4,7 @@ import Logo from '../../images/CafeAlma_Logo.svg'
 import { motion } from "framer-motion";
 import SocialCercle from "../buttons/SocialCercle";
 import { useState } from "react";
+import NavPhone from "./NavPhone";
 
 function Nav() {
 
@@ -33,6 +34,7 @@ function Nav() {
 
         
         </div>
+        <NavPhone/>
 
         <div className="links_div displayNone drtl">
           <NavLink to="/" className={'links'}>דף הבית</NavLink>

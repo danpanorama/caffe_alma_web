@@ -36,3 +36,10 @@ background-size: cover;
     font-size: 4rem;
     font-weight: 100;
 }
+.iframeMapHome{
+    width: 100%;
+    border: none;
+}
+.marginLeft{
+    margin-left: 30px;
+}

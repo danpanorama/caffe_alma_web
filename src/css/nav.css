@@ -13,6 +13,9 @@
 .bw{
     background-color: white;
 }
+.displayOnPhoneDisplay{
+    display: none;
+}
 
 .links{
     margin-left: 50px;

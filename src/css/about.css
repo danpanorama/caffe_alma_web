@@ -141,12 +141,19 @@ margin-bottom: 200px;
 .maximg{
     max-height: 200px;
 }
+.wordsSide{
+    margin-left: 50px;
+}
 .aboutScreen{
     height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.437),rgba(255, 255, 255, 0.24)),url('../images/new/frame.png');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.688),rgba(255, 255, 255, 0.573)),url('../images/new/frame.png');
     /* background-position: center; */
     background-size: cover;
     object-fit: cover;
 }
 .imageSide{
+/* transform: translateY(100px); */
+}
+.imgabout{
+    width: 400px;
 }
