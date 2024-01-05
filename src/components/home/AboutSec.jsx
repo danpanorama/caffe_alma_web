@@ -3,17 +3,22 @@ import "../../css/about.css";
 import { motion } from "framer-motion";
 import Img from "../../images/new/out2.jpg";
 import Img2 from "../../images/new/boss1.jpg";
+
+import { useEffect } from "react";
 function AboutSec() {
+
+
+
   return (
     <div className="flexCol container  acenter aboutsec posrel">
-      <h1 className="about_header">קצת עלינו</h1>
+      <h1 className="about_header" data-aos="fade-up">קצת עלינו</h1>
 
       <div className="flexRowToCol posrel bet margin_top_50  w100 h100 ">
-        <div className="imageDivAbout  h100 w50   zindex ">
+        <div className="imageDivAbout  h100 w50   zindex " data-aos="fade-right">
           
           <img src={Img} alt="" className="img min_height" />
           <br /><br />
-          <p className="textWords">
+          <p className="textWords" data-aos="fade-left" >
           ביחד עם אווירה אסלית, טבעית וצבעונית תוכלו להנות מפינות ישיבה מרגיעות ומוצלות, להתפנק על כוס קפה משובח ולהתרשם מעמדת הצמחים המתחדשת שלנו בה כל הצמחים מוצעים לרכישה.
           </p>
           <p className=" wordsText">מוזמנים לעקוב אחרינו ולהיכנס לאווירה Almayafo 
@@ -26,9 +31,9 @@ function AboutSec() {
           </p>
         </div>
 
-        <div className="wordsSec w50 flexCol bet ">
+        <div className="wordsSec w50 flexCol bet  ">
           {/* <h1>קפה עלמה</h1> */}
-          <p className="wordsText">
+          <p className="wordsText ">
           קפה עלמה הוא בית קפה שכונתי, ותיק ופינתי השוכן בלב יפו הקסומה. 
 
           </p>
