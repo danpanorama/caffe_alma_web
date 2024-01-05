@@ -8,7 +8,7 @@ function ContactComp() {
   return (
     <div className="flexCol center drtl h100vh">
     
-    <div className="openHours flexRowToCol center">
+    <div className="openHours flexCol center">
        <div className="w500">
        <p className="pre">
               שעות פעילות

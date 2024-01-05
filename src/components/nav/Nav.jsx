@@ -34,7 +34,7 @@ function Nav() {
 
         
         </div>
-        <NavPhone/>
+     
 
         <div className="links_div displayNone drtl">
           <NavLink to="/" className={'links'}>דף הבית</NavLink>
@@ -47,7 +47,7 @@ function Nav() {
         <div className="social">
           <SocialCercle/>
         </div>
-          
+        <NavPhone/>
           </div>  
       </div>
     </div>

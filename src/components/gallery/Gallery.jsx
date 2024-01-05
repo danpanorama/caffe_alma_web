@@ -33,7 +33,7 @@ export default function Gallery() {
      <Box className='galleryOfImage'>
       <ImageList variant="masonry overY" cols={3} gap={8}>
         {itemData.map((item) => (
-          <ImageListItem key={item.img}>
+          <ImageListItem key={item}>
             <img data-aos="fade-up"
               srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={item}

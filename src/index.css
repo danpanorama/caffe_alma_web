@@ -5,6 +5,7 @@
 body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -12,7 +13,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 @media screen and (max-width: 892px) {
-
+*{
+  overflow-x: hidden !important;
+}
   .displayNone{
     display: none;
   }
@@ -58,6 +61,9 @@ right: 0 !important;
     width: 100px !important;
  
 }
+.displayOnPhoneDisplay{
+display: block !important;
+}
 .inside_circle_02{
     height: 50px  !important;
     width: 50px !important;
@@ -67,7 +73,7 @@ right: 0 !important;
   margin-bottom: 50px !important;
 }
 .imageOpenWeb{
-  height: 60vh !important;
+  height: 70vh !important;
 }
 .centeratphone{
   
