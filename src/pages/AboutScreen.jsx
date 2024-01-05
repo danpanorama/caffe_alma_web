@@ -12,11 +12,12 @@ function AboutScreen() {
     <div className="">
       <TransitionPage>
         <div className="aboutScreen">
+          <br /><br /><br /><br /><br /><br />
           <div className="flexRowToCol container h100 bet acenter">
           <div className="imageSideRow">
               <img src={Image4} className="imgabout " alt="" />
             </div>
-            <div className="wordsSide drtl">
+            <div className="wordsSide drtl flexCol center">
               
               <h1 className="aboutHeaderPage">
                 קפה עלמה הוא בית קפה שכונתי, ותיק ופינתי השוכן בלב יפו הקסומה.
@@ -35,7 +36,7 @@ function AboutScreen() {
               <ButtonMenu text="תפריט"/>
             </div>
 
-
+<br /><br />
  
           </div>
         <div className="container">

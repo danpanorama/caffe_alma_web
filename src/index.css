@@ -19,6 +19,18 @@ body {
   .displayNone{
     display: none;
   }
+  .flexRowToColRevers{
+    flex-direction: column-reverse !important;
+  }
+  .sideA{
+    height: 300px !important;
+    width: 100% !important;
+
+    
+}
+.sideB{
+    width: 100% !important;
+}
   .Logo{
     height: 60px;
   }

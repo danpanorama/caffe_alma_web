@@ -10,6 +10,10 @@ flex-direction: column;
     flex-direction: row;
 
 }
+.flexRowToColRevers{
+    display: flex;
+    flex-direction: row;
+}
 .flexRow{
     display: flex;
     flex-direction: row;

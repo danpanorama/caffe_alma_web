@@ -39,8 +39,8 @@ function NavPhone() {
           <h1>קפה עלמה</h1>
           <br /><br />
         
-        <div className=" flexCol center   drtl">
-          <NavLink to="/" className={'linksphone'}>דף הבית</NavLink>
+        <div onClick={openNav} className="  flexCol center   drtl">
+          <NavLink to="/"  className={'linksphone'}>דף הבית</NavLink>
           <NavLink to="/about" className={'linksphone'}>תפריט</NavLink>
           <NavLink to="/about" className={'linksphone'}>menu</NavLink>
 

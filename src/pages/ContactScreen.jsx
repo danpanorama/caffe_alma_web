@@ -7,7 +7,7 @@ function ContactScreen() {
   return (
     <div className="App">
       <TransitionPage>
-      <div className="contactPage flexRow center">
+      <div className="contactPage flexRowToColRevers center">
         <div className="sideA">
 
         </div>

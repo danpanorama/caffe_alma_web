@@ -141,19 +141,34 @@ margin-bottom: 200px;
 .maximg{
     max-height: 200px;
 }
-.wordsSide{
+/* .wordsSide{
     margin-left: 50px;
-}
+} */
 .aboutScreen{
-    height: 100vh;
+    min-height: 100vh;
     background-image: linear-gradient(rgba(255, 255, 255, 0.688),rgba(255, 255, 255, 0.573)),url('../images/new/frame.png');
     /* background-position: center; */
     background-size: cover;
     object-fit: cover;
 }
 .imageSide{
+
 /* transform: translateY(100px); */
 }
+.gridImage{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
 .imgabout{
-    width: 400px;
+    max-width: 400px;
+
+}
+.textWordsPage{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: white;
+    padding: 3px;
 }
