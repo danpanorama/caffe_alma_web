@@ -31,7 +31,7 @@ function AboutSec() {
           </p>
         </div>
 
-        <div className="wordsSec w50 flexCol bet  ">
+        <div className="wordsSec w50 flexCol bet ">
           {/* <h1>קפה עלמה</h1> */}
           <p className="wordsText ">
           קפה עלמה הוא בית קפה שכונתי, ותיק ופינתי השוכן בלב יפו הקסומה. 
@@ -51,9 +51,9 @@ function AboutSec() {
         </div>
 
 
-        <div className="square_about_1"></div>
-        <div className="square_about_2"></div>{" "}
-        <div className="square_about_3"></div>
+        <div className="square_about_1 displayNone"></div>
+        <div className="square_about_2 displayNone"></div>{" "}
+        <div className="square_about_3 displayNone"></div>
       </div>
     </div>
   );

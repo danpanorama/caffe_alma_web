@@ -1,6 +1,8 @@
 
+import ContactComp from '../components/home/ContactComp';
 import Gallery from '../components/gallery/Gallery';
 import AboutSec from '../components/home/AboutSec';
+import ImageSection from '../components/home/ImageSection';
 import NewAbout from '../components/home/NewAbout';
 import NewOpening from '../components/home/NewOpening';
 import Opening from '../components/home/Opening';
@@ -25,8 +27,13 @@ function HomeScreen() {
       <NewAbout/>
 
       <LogoComp/>
+      <br /><br />
       <Gallery/>
+     
 
+    
+      <ContactComp/>
+  <ImageSection/>
        {/* <Opening/>
        <AboutSec/> */}
       </TransitionPage>

@@ -3,11 +3,24 @@ import "../../css/nav.css";
 import Logo from '../../images/CafeAlma_Logo.svg'
 import { motion } from "framer-motion";
 import SocialCercle from "../buttons/SocialCercle";
+import { useState } from "react";
+import NavPhone from "./NavPhone";
 
 function Nav() {
+
+  const [activeNavBar,setActiveNav ] = useState(false)
+  const changeBackground = ()=>{
+      if(window.scrollY >= 80){
+        setActiveNav(true)
+      }
+      else{
+        setActiveNav(false)
+      }
+   }
+   window.addEventListener('scroll', changeBackground)
   return (
-    <div className="nav_bar">
-      <div className="container h100 marginAuto centeratphone">
+    <div className={activeNavBar?"nav_bar bw":'nav_bar h20vh '}>
+      <div className={"container h100 marginAuto centeratphone"}>
         <div className="flexRow bet acenter">
         <div className="logo flexRow">
           
@@ -21,10 +34,13 @@ function Nav() {
 
         
         </div>
+        <NavPhone/>
 
-        <div className="links_div displayNone">
+        <div className="links_div displayNone drtl">
           <NavLink to="/" className={'links'}>דף הבית</NavLink>
           <NavLink to="/about" className={'links'}>תפריט</NavLink>
+          <NavLink to="/about" className={'links'}>menu</NavLink>
+
           <NavLink to="/about" className={'links'}>אודות</NavLink>
           <NavLink to="/contact" className={'links'}>צור קשר</NavLink>
         </div>

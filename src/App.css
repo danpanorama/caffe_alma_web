@@ -58,3 +58,7 @@ flex-direction: column;
 .h90vh{
     height: 90vh;
 }
+
+.drtl{
+    direction: rtl;
+}

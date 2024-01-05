@@ -21,6 +21,7 @@
     font-weight: 700;
     direction: rtl;
     margin-bottom: 10px;
+    color: rgb(50, 49, 49);
 }
 .textWords{
     direction: rtl;
@@ -46,9 +47,13 @@ color: rgb(58, 58, 58);
     height: 100%;
     width: 100%;
 }
+
 .about_header{
-    font-weight: 100;
+    font-weight: 700;
     font-size: 3rem;
+    background-image: linear-gradient(to right,#fbb040 ,#359272 ,#d3525f );
+    background-clip: text ;
+    color: transparent;
 }
 .square_about_2{
     height: 50%;
@@ -129,4 +134,26 @@ margin-bottom: 200px;
     left: -15%;
     z-index: -1;
    border-radius: 4px;
+}
+
+
+/* about page style  */
+.maximg{
+    max-height: 200px;
+}
+.wordsSide{
+    margin-left: 50px;
+}
+.aboutScreen{
+    height: 100vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.688),rgba(255, 255, 255, 0.573)),url('../images/new/frame.png');
+    /* background-position: center; */
+    background-size: cover;
+    object-fit: cover;
+}
+.imageSide{
+/* transform: translateY(100px); */
+}
+.imgabout{
+    width: 400px;
 }
