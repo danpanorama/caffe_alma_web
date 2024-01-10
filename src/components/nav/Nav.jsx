@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import SocialCercle from "../buttons/SocialCercle";
 import { useState } from "react";
 import NavPhone from "./NavPhone";
+import PDF from './Cafe_Alma-Menu_23x33cm.pdf'
+import PDFE from './Cafe_Alma-Menu_23x33cm-ENG2.pdf'
 
 function Nav() {
 
@@ -20,8 +22,8 @@ function Nav() {
    window.addEventListener('scroll', changeBackground)
   return (
     <div className={activeNavBar?"nav_bar bw":'nav_bar h20vh '}>
-      <div className={"container h100 marginAuto centeratphone"}>
-        <div className="flexRow bet acenter">
+      <div className={" h100 marginAuto centeratphone"}>
+        <div className="flexRow evenly acenter">
         <div className="logo flexRow">
           
           <motion.img
@@ -38,10 +40,11 @@ function Nav() {
 
         <div className="links_div displayNone drtl">
           <NavLink to="/" className={'links'}>דף הבית</NavLink>
-          <NavLink to="/about" className={'links'}>תפריט</NavLink>
-          <NavLink to="/about" className={'links'}>menu</NavLink>
+          <a href={PDF} className={'links'}>תפריט</a>
+          <a href={PDFE} className={'links'}>menu</a>
 
           <NavLink to="/about" className={'links'}>אודות</NavLink>
+          <NavLink to="/contact" className={'links'}>גלרייה </NavLink>
           <NavLink to="/contact" className={'links'}>צור קשר</NavLink>
         </div>
         <div className="social">

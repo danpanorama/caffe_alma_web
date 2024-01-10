@@ -1,11 +1,32 @@
 import * as React from 'react';
-import '../../css/gallery.css'
+import '../../css/footer.css'
+import LogoComp from '../logo/LogoComp';
+import SocialCercle from '../buttons/SocialCercle';
+import { NavLink } from "react-router-dom";
 
-export default function Gallery() {
+export default function Footer() {
   return (
-  <div className="footer">
+<div>
+<div className="footer">
+<div className="container   flexRow evenly acenter">
+<div className="flexCol center">
+<LogoComp/>
+<SocialCercle/>
+</div>
+<div className="linksNav">
+<div className="  flexCol center   drtl">
+          <NavLink to="/"  className={' linkfooter'}>דף הבית</NavLink>
+          <a href='./Cafe_Alma-Menu_23x33cm.pdf'  className={'linkfooter'}>תפריט</a>
+          <NavLink to="/about" className={'linkfooter'}>menu</NavLink>
 
+          <NavLink to="/about" className={'linkfooter'}>אודות</NavLink>
+          <NavLink to="/contact" className={'linkfooter'}>צור קשר</NavLink>
+        </div>
+</div>
 
   </div>
+ 
+</div> <div className="bottomFooter"></div>
+</div>
   );
 }

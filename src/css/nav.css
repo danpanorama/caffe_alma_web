@@ -23,9 +23,12 @@
 .displayOnPhoneDisplay{
     display: none;
 }
+.links_div{
+    flex-wrap: wrap;
+}
 
 .links{
-    margin-left: 50px;
+    margin-left: 30px; 
     font-size: 1.3rem;
     text-decoration: none;
     text-transform: uppercase;

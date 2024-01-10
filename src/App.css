@@ -34,6 +34,9 @@ flex-direction: column;
 .bet{
     justify-content: space-between;
 }
+.evenly{
+    justify-content: space-evenly;
+}
 .h100{
     height: 100%;
 }
@@ -65,4 +68,19 @@ flex-direction: column;
 
 .drtl{
     direction: rtl;
+}
+
+
+
+.shrink{
+    width: 100%;
+}
+.shrink::after{
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+a{
+    text-decoration: none;
+    color: #262626;
 }

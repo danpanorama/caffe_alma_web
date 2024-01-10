@@ -12,6 +12,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* @media screen and (max-width: 1375px) {
+.grinAbout{
+grid-template-rows: 1fr 1fr;
+}
+} */
 @media screen and (max-width: 892px) {
 *{
   overflow-x: hidden !important;

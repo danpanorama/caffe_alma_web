@@ -11,8 +11,12 @@ import TransitionPage from '../components/transition/TransitionPage';
 import '../css/home.css';
 import Logo from '../images/CafeAlma_Logo.svg'
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 
 function HomeScreen() {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+      },[])
   return (
     <div className="App ">
       <TransitionPage>
