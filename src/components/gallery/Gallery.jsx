@@ -17,6 +17,8 @@ import Img11 from '../../images/new/IMG_2501.jpg'
 import Img12 from '../../images/new/IMG_2560.jpg'
 import Img13 from '../../images/new/IMG_6583.jpg'
 import Img14 from '../../images/new/IMG_6586.jpg'
+import Img15 from '../../images/new/IMG_6726.jpg'
+
 import ButtonMenu from '../buttons/ButtonMenu';
 import 'aos/dist/aos.css'
 import AOS from "aos";
@@ -25,7 +27,7 @@ export default function Gallery() {
   useEffect(()=>{
     AOS.init({duration:'1500'});
   },[])
-  const itemData = [Img1,Img2,Img3,Img4,Img5,Img9,Img11,Img12,Img6,Img7,Img8,Img10, Img13,Img14]
+  const itemData = [Img15,Img1,Img2,Img3,Img4,Img5,Img9,Img11,Img12,Img6,Img7,Img8,Img10, Img13,Img14]
   return (
   <div className="galleryComp">
    <div className="container">
@@ -34,7 +36,7 @@ export default function Gallery() {
       <ImageList variant="masonry overY" cols={3} gap={8}>
         {itemData.map((item) => (
           <ImageListItem key={item}>
-            <img data-aos="fade-up"
+            <img 
               srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={item}
               alt={item.title}

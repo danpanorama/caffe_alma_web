@@ -5,6 +5,9 @@
     margin-left: 20px;
     color: black;
 }
+.cercleSocial:first-child{
+    margin-left: 0;
+}
 
 .btnMenu{
     padding: 10px 20px 10px 20px;

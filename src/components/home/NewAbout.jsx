@@ -18,9 +18,9 @@ function NewAbout() {
       <br />
       <div className="container flexRowToCol">
         <div className="imageSideAbout  posrel w50 " data-aos="fade-right">
-          <div className="square_about_1_new displayNone"></div>
-          <div className="square_about_2_new displayNone"></div>{" "}
-          <div className="square_about_3_new displayNone"></div>
+          <div  data-aos="fade-left" className="square_about_1_new displayNone"></div>
+          <div data-aos="fade-right" className="square_about_2_new displayNone"></div>{" "}
+          <div data-aos="fade-bottom" className="square_about_3_new displayNone"></div>
           <img src={Img} className="img zindex" alt="" />
         </div>
         <div className="wordsSectionAbout  w50   zindex" data-aos="fade-left">

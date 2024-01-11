@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 function SocialCercle() {
   return (
     <div className="flexRow">
-        <a href="" className="cercleSocial"><li className="fa fa-facebook"></li></a>
-        <a href="" className="cercleSocial"><li className="fa fa-instagram"></li></a>
-        <a href="" className="cercleSocial"><li className="fa fa-twitter"></li></a>
+        <a href="" className="cercleSocial flexCol center"><li className="fa fa-facebook"></li></a>
+        <a href="" className="cercleSocial flexCol center"><li className="fa fa-instagram"></li></a>
+        <a href="" className="cercleSocial flexCol center"><li className="fa fa-twitter"></li></a>
 
-        <a href="" className="cercleSocial"><li className="fa fa-whatsapp"></li></a>
+        <a href="" className="cercleSocial flexCol center"><li className="fa fa-whatsapp"></li></a>
 
     </div>
   );

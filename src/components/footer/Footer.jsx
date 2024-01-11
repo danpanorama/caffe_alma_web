@@ -13,15 +13,19 @@ export default function Footer() {
 <LogoComp/>
 <SocialCercle/>
 </div>
-<div className="linksNav">
-<div className="  flexCol center   drtl">
-          <NavLink to="/"  className={' linkfooter'}>דף הבית</NavLink>
+<div className="linksNav flexRow">
+<div className="  flexCol    drtl">
+
+<NavLink to="/about" className={'linkfooter'}>אודות</NavLink>
+<NavLink to="/contact" className={'linkfooter'}>צור קשר</NavLink>
+</div>
+  <div className="flexCol  drtl">
+              <NavLink to="/"  className={' linkfooter'}>דף הבית</NavLink>
           <a href='./Cafe_Alma-Menu_23x33cm.pdf'  className={'linkfooter'}>תפריט</a>
           <NavLink to="/about" className={'linkfooter'}>menu</NavLink>
 
-          <NavLink to="/about" className={'linkfooter'}>אודות</NavLink>
-          <NavLink to="/contact" className={'linkfooter'}>צור קשר</NavLink>
-        </div>
+  </div>
+
 </div>
 
   </div>

@@ -111,26 +111,26 @@ margin-bottom: 200px;
     position: absolute;
     bottom: -25%;
     left: 50%;
-   border-radius: 4px;
+   border-radius: 50%;
    z-index: -1;
 }
 .square_about_3_new{
-    height: 35%;
+    height: 50%;
     width: 40%;
     background-color: #35927247;
     position: absolute;
     top: -15%;
-    left: 10%;
-   border-radius: 4px;
+    left: -10%;
+   border-radius: 50%;
    z-index: -1;
 }
 
 .square_about_1_new{
     height: 60%;
-    width: 20%;
+    width: 40%;
     background-color: #d3525f43;
     position: absolute;
-    bottom: 10%;
+    bottom: -10%;
     left: -15%;
     z-index: -1;
    border-radius: 4px;
@@ -160,7 +160,9 @@ margin-bottom: 200px;
 
 .aboutScreen{
     min-height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.573)),url('../images/new/frame.png');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.573)),url('../images/new/good.jpg');
+padding-bottom: 100px;
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.573)),url('../images/new/frame.png'); */
     /* background-position: center; */
     background-size: cover;
     object-fit: cover;
@@ -171,12 +173,14 @@ width: 100%;
 /* transform: translateY(100px); */
 }
 .wordsSide{
-
-    margin-left: 50px;
+/* 
+    margin-left: 50px; */
    
 }
 
-
+.aboutHeaderPage{
+    color: #262626;
+}
 
 
 
@@ -194,7 +198,7 @@ width: 100%;
     margin-top: 20px;
     font-size: 1.5rem;
     text-align: center;
-    background-color: white;
+    /* background-color: white; */
     padding: 3px;
    width: 100%;
 }

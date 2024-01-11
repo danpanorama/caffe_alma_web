@@ -19,11 +19,11 @@ window.scrollTo(0,0)
         <div className="aboutScreen">
           <br /><br /><br /><br /><br /><br />
           {/* className="flexRowToCol container h100 bet acenter" */}
-          <div className="flexRowToCol container h100 bet acenter  "> 
-          <div className="  ">
+          <div className=" container "> 
+          {/* <div className="  ">
               <img src={Image4} className="imgabout " alt="" />
-            </div>
-            <div className="wordsSide drtl flexCol center w50 ">
+            </div> */}
+            <div className="wordsSide drtl flexCol center  ">
               
               <h1 className="aboutHeaderPage ">
                 קפה עלמה הוא בית קפה שכונתי, ותיק ופינתי השוכן בלב יפו הקסומה.
