@@ -44,7 +44,7 @@ function Nav() {
           <a href={PDFE} className={'links'}>menu</a>
 
           <NavLink to="/about" className={'links'}>אודות</NavLink>
-          <NavLink to="/contact" className={'links'}>גלרייה </NavLink>
+          {/* <NavLink to="/contact" className={'links'}>גלרייה </NavLink> */}
           <NavLink to="/contact" className={'links'}>צור קשר</NavLink>
         </div>
         <div className="social">

@@ -15,8 +15,8 @@ function ContactComp() {
               שעות פעילות
             </p>
             <p className="time ">
-            ראשון עד חמישי מ 7:00-22:00 </p>
-            <p className="time"> שישי מ 7:00-18:00</p>
+            ראשון עד חמישי מ 7:30-22:00 </p>
+            <p className="time"> שישי מ 7:30-18:00</p>
             <p className="time">   שבת מ 8:00-22:00</p>
 {/* <ButtonMenu text="צור קשר"/> */}
 <ButtonCall  text="צור קשר" href={'+972539650248'} />

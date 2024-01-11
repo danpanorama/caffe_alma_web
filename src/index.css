@@ -23,10 +23,13 @@ grid-template-rows: 1fr 1fr;
   overflow-x: hidden !important;
 }
   .displayNone{
-    display: none;
+    display: none !important;
   }
   .flexRowToColRevers{
     flex-direction: column-reverse !important;
+  }
+  .marginLeft{
+    margin-left: 0 !important;
   }
   .sideA{
     height: 300px !important;
