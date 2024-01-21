@@ -1,9 +1,13 @@
 
+import { useEffect } from 'react';
 import TransitionPage from '../components/transition/TransitionPage';
 import '../css/contact.css';
 import Image from '../images/new/out2.jpg'
 
 function ContactScreen() {
+  useEffect(()=>{
+    window.scrollTo(0,0)
+      },[])
   return (
     <div className="App">
       <TransitionPage>

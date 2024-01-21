@@ -2,10 +2,13 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
+import { useEffect } from 'react';
 const GalleryScreen = () => {
   const importAll = (context) => context.keys().map(context);
   const images = importAll(require.context('../images/new', false, /\.(png|jpe?g|svg)$/));
-
+  useEffect(()=>{
+    window.scrollTo(0,0)
+      },[])
   return (
     <div className='container marginTop150'>
 
