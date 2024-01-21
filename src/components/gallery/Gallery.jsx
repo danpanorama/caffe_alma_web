@@ -18,7 +18,7 @@ import Img12 from '../../images/new/IMG_2560.jpg'
 import Img13 from '../../images/new/IMG_6583.jpg'
 import Img14 from '../../images/new/IMG_6586.jpg'
 import Img15 from '../../images/new/IMG_6726.jpg'
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import ButtonMenu from '../buttons/ButtonMenu';
 import 'aos/dist/aos.css'
 import AOS from "aos";
@@ -36,11 +36,14 @@ export default function Gallery() {
       <ImageList variant="masonry overY" cols={3} gap={8}>
         {itemData.map((item) => (
           <ImageListItem key={item}>
-            <img 
-              srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+            <LazyLoadImage 
+              // srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={item}
+              
+              className='img'
               alt={item.title}
               loading="lazy"
+              
             />
           </ImageListItem>
         ))}

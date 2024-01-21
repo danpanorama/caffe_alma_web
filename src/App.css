@@ -70,10 +70,16 @@ flex-direction: column;
     direction: rtl;
 }
 
-
+.end{
+    justify-content: flex-end;
+    align-items: flex-end;
+}
 
 .shrink{
     width: 100%;
+}
+.marginTop150{
+    margin-top: 150px;
 }
 .shrink::after{
     content: '';

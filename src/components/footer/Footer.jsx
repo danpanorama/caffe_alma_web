@@ -7,17 +7,18 @@ import { NavLink } from "react-router-dom";
 export default function Footer() {
   return (
     <div>
-      <div className="footer">
+      <div className="footer flexCol  center">
         <div className="container   flexRow evenly acenter">
-          <div className="flexCol center">
+          <div className="flexCol ">
             <LogoComp />
             <SocialCercle />
           </div>
-          <div className="linksNav displayNone flexRow">
+          <div className="linksNav displayNone h100 flexRow">
            
             
             
-            <NavLink to="/contact" className={"linkfooter"}>
+           <div className="flexCol drtl h100 bet">
+           <NavLink to="/contact" className={"linkfooter"}>
               צור קשר
             </NavLink> <a href="./Cafe_Alma-Menu_23x33cm.pdf" className={"linkfooter"}>
               תפריט
@@ -25,11 +26,18 @@ export default function Footer() {
             <NavLink to="/about" className={"linkfooter"}>
               menu
             </NavLink>
+           </div>
+           
+            <div className="flexCol  drtl h100 bet">
+            <NavLink to="/gallery" className={"linkfooter"}>
+              גלרייה
+            </NavLink>
              <NavLink to="/about" className={"linkfooter"}>
               אודות
             </NavLink><NavLink to="/" className={" linkfooter"}>
               דף הבית
             </NavLink> 
+            </div>
 
           
           </div>

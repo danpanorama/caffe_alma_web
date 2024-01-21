@@ -1,0 +1,40 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import Box from '@mui/material/Box';
+import ImageList from '@mui/material/ImageList';
+import ImageListItem from '@mui/material/ImageListItem';
+const GalleryScreen = () => {
+  const importAll = (context) => context.keys().map(context);
+  const images = importAll(require.context('../images/new', false, /\.(png|jpe?g|svg)$/));
+
+  return (
+    <div className='container marginTop150'>
+
+      {/* {images.map((image, index) => (
+        <img key={index} src={image.default} alt={`image-${index}`} />
+      ))} */}
+
+<Box className='galleryOfImage'>
+      <ImageList variant="masonry overY" cols={3} gap={8}>
+        {images.map((image, index) => (
+          <ImageListItem key={image}>
+            <LazyLoadImage 
+              // srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+              src={image}
+              
+              className='img'
+              alt={image.title}
+              loading="lazy"
+              
+            />
+          </ImageListItem>
+        ))}
+      </ImageList>
+
+
+    </Box>
+
+    </div>
+  );
+};
+
+export default GalleryScreen;

@@ -6,6 +6,7 @@ import ButtonMenu from "../buttons/ButtonMenu";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { useEffect } from "react";
+import SocialCercle from "../buttons/SocialCercle";
 
 function NewAbout() {
   useEffect(() => {
@@ -32,6 +33,8 @@ function NewAbout() {
             המיוחדים אנחנו מציעים שייקים ומיצים סחוטים וטבעיים שירעננו אתכם
             במהלך הקיץ וכן, שלל משקאות בריאות טעימים שינחמו בימי החורף הקרירים.
             <br />
+            <br />
+            <SocialCercle/>
             <div className=" flexCol center">
               <ButtonMenu href="about" text={"קרא עוד"} scrb={""} />
             </div>
