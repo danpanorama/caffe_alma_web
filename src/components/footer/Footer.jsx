@@ -18,7 +18,7 @@ export default function Footer() {
            
             
             
-           <div className="flexCol drtl h100 bet">
+           {/* <div className="flexCol drtl h100 bet">
            <NavLink to="/contact" className={"linkfooter"}>
               צור קשר
             </NavLink> <a href="./Cafe_Alma-Menu_23x33cm.pdf" className={"linkfooter"}>
@@ -38,11 +38,12 @@ export default function Footer() {
             </NavLink><NavLink to="/" className={" linkfooter"}>
               דף הבית
             </NavLink> 
-            </div>
+            </div> */}
 
           
           </div>
-          <div className="formDiv">
+          <div className="formDiv drtl">
+            <h4>צור קשר</h4>
           <form action="" className="form flexRowToColRevers שcenter drtl">
            <ButtonMenu class1="marginTop10" text="שלח" />  <input placeholder="מייל או טלפון" type="text" className="input" />
            

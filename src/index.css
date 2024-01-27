@@ -24,6 +24,12 @@ grid-template-rows: 1fr 1fr;
 *{
   overflow-x: hidden !important;
 }
+.marginLeft50{
+  margin-left: 0 !important;
+}
+.textWordsPageE {
+  margin-right: 0 !important;
+}
   .displayNone{
     display: none !important;
   }

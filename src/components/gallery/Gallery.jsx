@@ -23,13 +23,15 @@ import ButtonMenu from '../buttons/ButtonMenu';
 import 'aos/dist/aos.css'
 import AOS from "aos";
 import { useEffect } from "react";
+import LogoComp from '../logo/LogoComp';
 export default function Gallery() {
   useEffect(()=>{
     AOS.init({duration:'1500'});
   },[])
   const itemData = [Img15,Img1,Img2,Img3,Img4,Img5,Img9,Img11,Img12,Img6,Img7,Img8,Img10, Img13,Img14]
   return (
-  <div className="galleryComp">
+  <div className="galleryComp whiteBg">
+<LogoComp/>
    <div className="container">
      {/* sx={{ width: 500, height: 450, overflowY: 'scroll' }} */}
      <Box className='galleryOfImage'>

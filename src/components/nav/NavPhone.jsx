@@ -5,6 +5,8 @@ import { motion } from "framer-motion";
 import SocialCercle from "../buttons/SocialCercle";
 import { useState } from "react";
 import LogoComp from "../logo/LogoComp";
+import PDF from './Cafe_Alma-Menu_23x33cm.pdf'
+import PDFE from './Cafe_Alma-Menu_23x33cm-ENG2.pdf'
 
 function NavPhone() {
   const [activeNavBar,setActiveNav ] = useState(true)
@@ -30,26 +32,28 @@ function NavPhone() {
         <div className="humb"></div>
         <div className="humb"></div>
         </div>
-        <div className={activeNavBar?"sideNavClose":'sideNavOpen flexCol acenter '}>
+        <div className={activeNavBar?"sideNavClose greenBg":'sideNavOpen greenBg  flexCol acenter '}>
         <div className="iconOnClickin flexCol " onClick={openNav} >
-          <div className="humb"></div>
-        <div className="humb"></div>
-        <div className="humb"></div>
+          <div className="humb bcw "></div>
+        <div className="humb bcw "></div>
+        <div className="humb bcw "></div>
         </div>
-          <h1>קפה עלמה</h1>
+          <h1 className="cw">קפה עלמה</h1>
           <br /><br />
         
         <div onClick={openNav} className="  flexCol center   drtl">
-          <NavLink to="/"  className={'linksphone'}>דף הבית</NavLink>
-          <NavLink to="/about" className={'linksphone'}>תפריט</NavLink>
-          <NavLink to="/about" className={'linksphone'}>menu</NavLink>
+          <NavLink to="/"  className={'linksphone cw'}>דף הבית</NavLink>
+          <a href={PDF} className={'linksphone cw'}>תפריט</a>
+          <a href={PDFE} className={'linksphone cw'}>menu</a>
 
-          <NavLink to="/about" className={'linksphone'}>אודות</NavLink>
-          <NavLink to="/contact" className={'linksphone'}>צור קשר</NavLink>
+          <NavLink to="/about" className={'linksphone cw'}>אודות</NavLink>
+          <NavLink to="/gallery" className={'linksphone cw'}>גלריה</NavLink>
+ 
+          <NavLink to="/contact" className={'linksphone cw'}>צור קשר</NavLink>
         </div>
         <LogoComp/>
         <br /><br /><br />
-        <SocialCercle/>
+        <SocialCercle class='cw'/>
         </div>
    
     </div>

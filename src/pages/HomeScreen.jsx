@@ -30,8 +30,8 @@ function HomeScreen() {
       <NewOpening/>
       <NewAbout/>
 
-      <LogoComp/>
-      <br /><br />
+     
+     
       <Gallery/>
      
 

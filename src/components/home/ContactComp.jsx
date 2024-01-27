@@ -7,7 +7,8 @@ import ButtonCall from "../buttons/ButtonCall";
 
 function ContactComp() {
   return (
-    <div className="container h100vh flexCol center drtl">
+   <div className="">
+     <div className="container  h100vh flexCol center drtl">
         <LogoComp/>
       <div className="flexRowToCol w100 center">
       <div className="openHours flexCol   marginLeft w50">
@@ -33,6 +34,7 @@ function ContactComp() {
       </div>
          
     </div>
+   </div>
   );
 }
 

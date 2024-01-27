@@ -88,6 +88,14 @@ flex-direction: column;
     
     background-color:#265f5c ;
 }
+.bcw{
+    background-color: white !important;
+}
+.whiteBg{
+    background-image: url('./images/whitebg.jpg');
+    object-fit: cover;
+    background-size: cover;
+}
 .marginTop50 {
     margin-top: 50px;
 }

@@ -13,15 +13,15 @@ function NewAbout() {
     AOS.init({ duration: "1500" });
   }, []);
   return (
-    <div className="aboutNew flexCol  acenter  posrel ">
-   <div className="whiteBg flexCol center">
-   <h1>קצת עלינו</h1>
+    <div className="aboutNew flexCol greenBg cw acenter  posrel ">
+   <div className=" flexCol center">
+   <h1 className="cw">קצת עלינו</h1>
       <p>הזמנת שולחנות ואירועים</p>
       <br />
       <br />
    </div>
-     <div className="greenBg">
-     <div className="container flexRowToCol  cw">
+     <div className="">
+     <div className="container flexRowToCol  ">
         <div className="imageSideAbout  posrel w50 " data-aos="fade-right">
           {/* <div  data-aos="fade-left" className="square_about_1_new displayNone"></div>
           <div data-aos="fade-right" className="square_about_2_new displayNone"></div>{" "}
@@ -38,7 +38,7 @@ function NewAbout() {
             במהלך הקיץ וכן, שלל משקאות בריאות טעימים שינחמו בימי החורף הקרירים.
             <br />
             <br />
-            <SocialCercle/>
+            <SocialCercle class={'cw'} />
             <div className=" flexCol center">
               <ButtonMenu href="about" class1="marginTop50" text={"קרא עוד"} scrb={""} />
             </div>

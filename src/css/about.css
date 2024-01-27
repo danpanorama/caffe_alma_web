@@ -83,7 +83,7 @@
  .aboutNew{
     /* height: 100vh; */
     width: 100%;
-margin-bottom: 200px;
+padding-bottom: 100px;
 
  }
 
@@ -98,7 +98,7 @@ margin-bottom: 200px;
     padding-right: 15px;
  }
  .aboutNew{
-    margin-top: 100px;
+    padding-top: 100px;
  }
  .posrel{
     position: relative;
@@ -160,7 +160,7 @@ margin-bottom: 200px;
 
 .aboutScreen{
     min-height: 100vh;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.573)),url('../images/new/good.jpg');
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.573)),url('../images/new/good.jpg'); */
 padding-bottom: 100px;
     /* background-image: linear-gradient(rgba(255, 255, 255, 0.85),rgba(255, 255, 255, 0.573)),url('../images/new/frame.png'); */
     /* background-position: center; */
@@ -176,6 +176,9 @@ width: 100%;
 /* 
     margin-left: 50px; */
    
+}
+.marginLeft50{
+    margin-left: 50px;
 }
 
 .aboutHeaderPage{
@@ -197,8 +200,16 @@ width: 100%;
 .textWordsPage{
     margin-top: 20px;
     font-size: 1.5rem;
-    text-align: center;
+   
     /* background-color: white; */
     padding: 3px;
    width: 100%;
+}
+.textWordsPageE{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    /* background-color: white; */
+    padding: 3px;
+  
+   margin-right: 50px;
 }
