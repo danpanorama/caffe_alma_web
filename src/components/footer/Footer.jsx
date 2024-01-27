@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div>
       <div className="footer flexCol  center">
-        <div className="container   flexRow evenly acenter">
+        <div className="container   flexRowToCol evenly acenter">
           <div className="flexCol ">
             <LogoComp />
             <SocialCercle />
@@ -42,9 +42,10 @@ export default function Footer() {
 
           
           </div>
-          <div className="formDiv drtl">
+          <br />
+          <div className="formDiv drtl w100">
             <h4>צור קשר</h4>
-          <form action="" className="form flexRowToColRevers שcenter drtl">
+          <form action="" className="form flexRow acenter evenly w100 drtl">
            <ButtonMenu class1="marginTop10" text="שלח" />  <input placeholder="מייל או טלפון" type="text" className="input" />
            
           </form>

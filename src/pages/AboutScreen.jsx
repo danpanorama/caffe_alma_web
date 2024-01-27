@@ -48,10 +48,14 @@ window.scrollTo(0,0)
                 להנות מרכישה של שלל מוצרי קפה כמו פולים, קפסולות או טחון למקינטה
                 ביתית וחליטות תה טבעיות.
               </p>
-            
+              <br /><br />
+
               <MenuButton text="תפריט"/>
+              <br /><br />
+
             </div>
 
+            <br /><br />
 
 
 
@@ -87,8 +91,11 @@ window.scrollTo(0,0)
                 Enjoy the purchase of a variety of coffee products such as beans, capsules or ground coffee
                 Homemade and natural tea infusions.
               </p>
-            
+              <br /><br />
+
               <MenuButton text="MENU"/>
+              <br /><br />
+
             </div>
 
 
