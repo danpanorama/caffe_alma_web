@@ -81,6 +81,16 @@ flex-direction: column;
 .marginTop150{
     margin-top: 150px;
 }
+.cw{
+    color: white !important;
+}
+.greenBg{
+    
+    background-color:#265f5c ;
+}
+.marginTop50 {
+    margin-top: 50px;
+}
 .shrink::after{
     content: '';
     display: block;

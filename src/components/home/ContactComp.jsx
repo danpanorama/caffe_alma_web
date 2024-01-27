@@ -19,7 +19,7 @@ function ContactComp() {
             <p className="time"> שישי מ 7:30-18:00</p>
             <p className="time">   שבת מ 8:00-22:00</p>
 {/* <ButtonMenu text="צור קשר"/> */}
-<ButtonCall  text="צור קשר" href={'+972539650248'} />
+<ButtonCall class1="marginTop50"  text="צור קשר" href={'+972539650248'} />
    
             {/* <div className="imageDiv">
               <img src={Image} className='h100 w100 img' alt="" />

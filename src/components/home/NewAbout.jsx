@@ -13,15 +13,19 @@ function NewAbout() {
     AOS.init({ duration: "1500" });
   }, []);
   return (
-    <div className="aboutNew flexCol acenter  posrel ">
-      <h1>קצת עלינו</h1>
+    <div className="aboutNew flexCol  acenter  posrel ">
+   <div className="whiteBg flexCol center">
+   <h1>קצת עלינו</h1>
+      <p>הזמנת שולחנות ואירועים</p>
       <br />
       <br />
-      <div className="container flexRowToCol">
+   </div>
+     <div className="greenBg">
+     <div className="container flexRowToCol  cw">
         <div className="imageSideAbout  posrel w50 " data-aos="fade-right">
-          <div  data-aos="fade-left" className="square_about_1_new displayNone"></div>
+          {/* <div  data-aos="fade-left" className="square_about_1_new displayNone"></div>
           <div data-aos="fade-right" className="square_about_2_new displayNone"></div>{" "}
-          <div data-aos="fade-bottom" className="square_about_3_new displayNone"></div>
+          <div data-aos="fade-bottom" className="square_about_3_new displayNone"></div> */}
           <img src={Img} className="img zindex" alt="" />
         </div>
         <div className="wordsSectionAbout  w50   zindex" data-aos="fade-left">
@@ -36,11 +40,12 @@ function NewAbout() {
             <br />
             <SocialCercle/>
             <div className=" flexCol center">
-              <ButtonMenu href="about" text={"קרא עוד"} scrb={""} />
+              <ButtonMenu href="about" class1="marginTop50" text={"קרא עוד"} scrb={""} />
             </div>
           </p>
         </div>
       </div>
+     </div>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 function ButtonCall(props) {
   return (
     <div className="btn">
-    <button  className="btnMenu">  <a href={'tel:'+props.href}>{props.text}</a></button>
+    <button  className={"btnMenu " + props.class1}>  <a href={'tel:'+props.href}>{props.text}</a></button>
 
     </div>
   );

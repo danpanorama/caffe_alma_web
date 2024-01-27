@@ -5,8 +5,8 @@ import PDF from '../nav/Cafe_Alma-Menu_23x33cm.pdf'
 
 function MenuButton(props) {
   return (
-    <div className="btn">
-    <button className="btnMenu"> <a href={PDF}>{props.text}</a> </button>
+    <div className={"btn " }>
+    <button className={"btnMenu " + props.class1 }> <a href={PDF}>{props.text}</a> </button>
 
     </div>
   );

@@ -3,6 +3,7 @@ import "../../css/footer.css";
 import LogoComp from "../logo/LogoComp";
 import SocialCercle from "../buttons/SocialCercle";
 import { NavLink } from "react-router-dom";
+import ButtonMenu from "../buttons/ButtonMenu";
 
 export default function Footer() {
   return (
@@ -41,7 +42,14 @@ export default function Footer() {
 
           
           </div>
+          <div className="formDiv">
+          <form action="" className="form flexRowToColRevers שcenter drtl">
+           <ButtonMenu class1="marginTop10" text="שלח" />  <input placeholder="מייל או טלפון" type="text" className="input" />
+           
+          </form>
         </div>
+        </div>
+      
       </div>{" "}
       <div className="bottomFooter"></div>
     </div>

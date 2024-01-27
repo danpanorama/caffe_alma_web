@@ -18,3 +18,12 @@
     height: 5vh;
     background-color: #262626;
 }
+.imagSec{
+    max-height: 400px;
+    width: 100vw;
+}
+.input{
+    height: 100%;
+   height: 30px;
+   margin-right: 10px;
+}

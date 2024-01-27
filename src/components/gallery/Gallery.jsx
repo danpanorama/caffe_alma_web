@@ -50,7 +50,7 @@ export default function Gallery() {
       </ImageList>
 
       <div className="flexCol center">
-        <ButtonMenu text={'עוד תמונות'} scrb={''}/>
+        <ButtonMenu class1="marginTop50" text={'עוד תמונות'} scrb={''}/>
       </div>
     </Box>
    </div>

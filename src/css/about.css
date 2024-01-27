@@ -21,11 +21,11 @@
     font-weight: 700;
     direction: rtl;
     margin-bottom: 10px;
-    color: rgb(50, 49, 49);
+    /* color: rgb(50, 49, 49); */
 }
 .textWords{
     direction: rtl;
-color: rgb(58, 58, 58);
+/* color: rgb(58, 58, 58); */
     text-align: right;
     font-size: 1.4rem;
     font-weight: 300;
@@ -179,7 +179,7 @@ width: 100%;
 }
 
 .aboutHeaderPage{
-    color: #262626;
+    /* color: #262626; */
 }
 
 

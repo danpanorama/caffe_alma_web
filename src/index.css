@@ -87,6 +87,12 @@ right: 0 !important;
 .displayOnPhoneDisplay{
 display: block !important;
 }
+.input{
+  margin-right: 0 !important;
+}
+.marginTop10{
+  margin-top: 10px;
+}
 .inside_circle_02{
     height: 50px  !important;
     width: 50px !important;
