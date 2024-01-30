@@ -46,8 +46,7 @@ export default function Gallery() {
               className='img'
               alt={item.title}
               loading="lazy"
-              height={100}
-              width={200}
+           
             />
           </ImageListItem>
         ))}

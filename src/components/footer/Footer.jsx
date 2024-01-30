@@ -43,11 +43,13 @@ export default function Footer() {
           
           </div>
           <br />
-          <div className="formDiv drtl w100">
+          <div className="formDiv drtl ">
             <h4>צור קשר</h4>
-          <form action="" className="form flexRow acenter evenly w100 drtl">
-           <ButtonMenu class1="marginTop10" text="שלח" />  <input placeholder="מייל או טלפון" type="text" className="input" />
+          <form action="" className="form flexCol acenter evenly w100 drtl">
+<div>
+<ButtonMenu class1="marginTop10" text="שלח" />  <input placeholder="מייל או טלפון" type="text" className="input" />
            
+</div>
           </form>
         </div>
         </div>

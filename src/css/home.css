@@ -130,6 +130,14 @@
 
     border-radius: 69% 31% 31% 69% / 30% 93% 7% 70% ;
 }
+
+.redBg{
+    background-color: #D3525F;
+
+}
+.yellowBg{
+    background-color: #FBB040;
+}
 .header{
     position: absolute;
     bottom: -50px;
