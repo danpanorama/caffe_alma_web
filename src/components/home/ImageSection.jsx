@@ -26,10 +26,10 @@ function ImageSection() {
               src={Imag2}
               effect="blur"
               className='img imagSec'
-             
+             placeholderSrc={Imag2}
               alt={Imag2}
               loading="lazy"
-              
+            
             />
       </div> 
    </div>

@@ -41,11 +41,13 @@ export default function Gallery() {
             <LazyLoadImage 
               // srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={item}
-              
+              placeholderSrc={item}
+              effect='blur'
               className='img'
               alt={item.title}
               loading="lazy"
-              
+              height={100}
+              width={200}
             />
           </ImageListItem>
         ))}
