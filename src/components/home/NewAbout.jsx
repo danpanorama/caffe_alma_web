@@ -33,8 +33,8 @@ function NewAbout() {
               effect="blur"
               className="img zindex"
              placeholderSrc={Img}
-             height={300}
-             width={400}
+             height={'100%'}
+             width={"100%"}
               alt={Img}
               loading="lazy"
             
