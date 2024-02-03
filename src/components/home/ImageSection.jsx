@@ -27,6 +27,8 @@ function ImageSection() {
               effect="blur"
               className='img imagSec'
              placeholderSrc={Imag2}
+             height={300}
+             width={600}
               alt={Imag2}
               loading="lazy"
             

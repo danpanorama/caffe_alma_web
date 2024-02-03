@@ -7,6 +7,7 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import { useEffect } from "react";
 import SocialCercle from "../buttons/SocialCercle";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function NewAbout() {
   useEffect(() => {
@@ -17,7 +18,7 @@ function NewAbout() {
    <div className=" flexCol center">
    <h1 className="cw">קצת עלינו</h1>
       <p>הזמנת שולחנות ואירועים</p>
-      <br />
+      <br /> 
       <br />
    </div>
      <div className="">
@@ -26,7 +27,21 @@ function NewAbout() {
           {/* <div  data-aos="fade-left" className="square_about_1_new displayNone"></div>
           <div data-aos="fade-right" className="square_about_2_new displayNone"></div>{" "}
           <div data-aos="fade-bottom" className="square_about_3_new displayNone"></div> */}
-          <img src={Img} className="img zindex" alt="" />
+          <LazyLoadImage 
+              // srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+              src={Img}
+              effect="blur"
+              className="img zindex"
+             placeholderSrc={Img}
+             height={300}
+             width={400}
+              alt={Img}
+              loading="lazy"
+            
+            />  
+        
+        
+          {/* <img src={Img} className="img zindex" alt="" /> */}
         </div>
         <div className="wordsSectionAbout  w50   zindex" data-aos="fade-left">
           <p className="wordsText">

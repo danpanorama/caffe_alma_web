@@ -42,8 +42,10 @@ export default function Gallery() {
               // srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={item}
               placeholderSrc={item}
-              effect='blur'
               className='img'
+              height={300}
+              width={400}
+              effect='blur'
               alt={item.title}
               loading="lazy"
            
