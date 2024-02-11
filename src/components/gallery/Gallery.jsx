@@ -43,8 +43,7 @@ export default function Gallery() {
               src={item}
               placeholderSrc={item}
               className='img'
-              
-              effect='blur'
+            
               alt={item.title}
               loading="lazy"
            
