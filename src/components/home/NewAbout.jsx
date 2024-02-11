@@ -31,10 +31,9 @@ function NewAbout() {
               // srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={Img}
               effect="blur"
-              className="img zindex"
-             placeholderSrc={Img}
-             height={'100%'}
-             width={"100%"}
+              className="img zindex bgoutsmall"
+             placeholderSrc={Img} 
+             
               alt={Img}
               loading="lazy"
             
