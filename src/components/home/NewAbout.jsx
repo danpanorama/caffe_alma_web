@@ -30,11 +30,10 @@ function NewAbout() {
           <LazyLoadImage 
               // srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={Img}
-              effect="blur"
+              
               className="img zindex"
              placeholderSrc={Img}
-             height={'100%'}
-             width={"100%"}
+          
               alt={Img}
               loading="lazy"
             

@@ -20,15 +20,14 @@ function ImageSection() {
             />
       
       </div>  */}
-      <div className="">
+      <div className="imagSec">
       <LazyLoadImage 
               // srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={Imag2}
-              effect="blur"
-              className='img imagSec'
+            
+              className='img imagSec bc'
              placeholderSrc={Imag2}
-             height={'100%'}
-             width={'100%'}
+             
               alt={Imag2}
               loading="lazy"
             
