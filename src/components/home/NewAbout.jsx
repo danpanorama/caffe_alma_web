@@ -1,6 +1,6 @@
 import "../../css/home.css";
 import { motion } from "framer-motion";
-import Img from "../../images/new/out2.jpg";
+import Img from "../../images/new/out2small2.jpg";
 import Img2 from "../../images/new/boss1.jpg";
 import ButtonMenu from "../buttons/ButtonMenu";
 import "aos/dist/aos.css";

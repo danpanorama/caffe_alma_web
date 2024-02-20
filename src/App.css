@@ -88,6 +88,9 @@ flex-direction: column;
     
     background-color:#265f5c ;
 }
+.maxh200{
+    max-height: 400px;
+}
 .bcw{
     background-color: white !important;
 }
