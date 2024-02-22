@@ -43,6 +43,7 @@ export default function Gallery() {
               src={item}
             
               className='img'
+            
               alt={item.title}
               loading="lazy"
            

@@ -14,7 +14,9 @@ export default function Footer() {
             <LogoComp />
             <SocialCercle />
           </div>
-      
+         
+          <br />
+        
         </div>
       
       </div>{" "}
