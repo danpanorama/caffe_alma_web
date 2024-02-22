@@ -17,15 +17,15 @@ const GalleryScreen = () => {
       ))} */}
 
 <Box className='galleryOfImage'>
-      <ImageList variant="masonry overY" cols={3} gap={8}>
+      <ImageList variant="masonry overY cols" cols={3} gap={8}>
         {images.map((image, index) => (
           <ImageListItem key={image}>
             <LazyLoadImage 
               // srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={image}
              
-              placeholderSrc={image}
-              effect='blur'
+              // placeholderSrc={image}
+              // effect='blur'
               className='img'
               alt={image.title}
               loading="lazy"

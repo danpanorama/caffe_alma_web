@@ -24,6 +24,9 @@ grid-template-rows: 1fr 1fr;
 *{
   overflow-x: hidden !important;
 }
+.cols{
+  grid-template-columns: 1fr 1fr !important;
+}
 .marginLeft50{
   margin-left: 0 !important;
 }

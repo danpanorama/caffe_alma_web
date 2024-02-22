@@ -3,13 +3,17 @@ import '../../../css/home.css'; // Import the CSS file for styling
 import Img1 from '../../../images/new/dog.jpg'
 import Img2 from '../../../images/new/out2.jpg'
 import Img3 from '../../../images/new/in2.jpg'
+import Img4 from '../../../images/new/good.jpg'
+import Img5 from '../../../images/new/cup.jpg'
+
+
 import React, { useState, useEffect } from 'react';
 import '../../../css/home.css'; // Import the CSS file for styling
 import { motion } from "framer-motion";
 
 const ImageGallery = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = [Img1, Img2, Img3]; // Add more image URLs as needed
+  const images = [Img1, Img2, Img3,Img4,Img5]; // Add more image URLs as needed
 
   useEffect(() => {
     const interval = setInterval(() => {
