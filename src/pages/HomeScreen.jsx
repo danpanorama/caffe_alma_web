@@ -12,6 +12,7 @@ import '../css/home.css';
 import Logo from '../images/CafeAlma_Logo.svg'
 import { motion } from "framer-motion";
 import { useEffect } from "react";
+import HomeCarusel from '../components/home/homecarusel/HomeCarusel';
 
 function HomeScreen() {
   useEffect(()=>{
@@ -26,8 +27,8 @@ function HomeScreen() {
         animate={{ opacity: 0, }}
         exit={{ opacity: 0,display:'none' }}
         transition={{ duration: 1 ,delay: 2}}src={Logo} alt="" />
-
-      <NewOpening/>
+<HomeCarusel/>
+      {/* <NewOpening/> */}
       <NewAbout/>
 
      

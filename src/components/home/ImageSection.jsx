@@ -6,9 +6,10 @@ import Imag1 from '../../images/home1.jpg'
 import Imag2 from '../../images/homesmall2.jpg'
 import OptimalImage from '../optimalimage/OptimalImage'
 function ImageSection() {
+  
   return (
-   <div className="w100">
- <OptimalImage src={Imag2} />
+   <div className="w100 loading_image">
+ <OptimalImage src={Imag1} />
     
    </div>
   );
