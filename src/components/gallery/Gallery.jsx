@@ -41,7 +41,7 @@ export default function Gallery() {
             <LazyLoadImage 
               // srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
               src={item}
-              placeholderSrc={item}
+            
               className='img'
               alt={item.title}
               loading="lazy"
