@@ -5,14 +5,19 @@ import Img2 from "../../images/new/boss1.jpg";
 import ButtonMenu from "../buttons/ButtonMenu";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import SocialCercle from "../buttons/SocialCercle";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 function NewAbout() {
+  const [imageLoad,setImageLoad] = useState(false)
   useEffect(() => {
     AOS.init({ duration: "1500" });
   }, []);
+
+  function handleLoading(){
+    setImageLoad(true)
+  }
   return (
     <div className="aboutNew flexCol greenBg cw acenter  posrel ">
    <div className=" flexCol center">
@@ -29,9 +34,9 @@ function NewAbout() {
           <div data-aos="fade-bottom" className="square_about_3_new displayNone"></div> */}
           <LazyLoadImage 
               // srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-              src={Img}
-            
-              className="img zindex"
+              src={Img} 
+            onLoad={handleLoading}
+              className={imageLoad?"img zindex opacity1":'opacity0'}
              placeholderSrc={Img}
            
               alt={Img}
