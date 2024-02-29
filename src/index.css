@@ -24,6 +24,10 @@ grid-template-rows: 1fr 1fr;
 *{
   overflow-x: hidden !important;
 }
+.imageSideAbout{
+  max-height: 248px !important;
+  min-height: 248px !important;
+}
 .cols{
   grid-template-columns: 1fr 1fr !important;
 }
